@@ -1,0 +1,29 @@
+{
+  "name": "loginsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talberry/LoginSystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talberry/LoginSystem/issues"
+  },
+  "homepage": "https://github.com/talberry/LoginSystem#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
